@@ -126,10 +126,19 @@ const COURSES_DATA = [
     id: "komputer-jaringan",
     nama: "KOMPUTER JARINGAN",
     kelompok: [
-      // Data kelompok akan menyusul. Silakan isi kelompok di sini ketika sudah ada.
+      {
+        nomor: 1,
+        nama: "Kelompok 1",
+        judul: "",
+        anggota: [
+          { nama: "", nim: "" },
+          { nama: "", nim: "" },
+          { nama: "", nim: "" },
+          { nama: "", nim: "" }
+        ]
+      },
     ]
   }
 ];
 
-// Ekspos ke global window
 window.COURSES_DATA = COURSES_DATA;

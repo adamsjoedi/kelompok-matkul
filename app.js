@@ -1,10 +1,3 @@
-/**
- * LOGIKA APLIKASI PORTAL KELOMPOK STUDI (VANILLA JAVASCRIPT)
- * 
- * Script ini berjalan langsung di browser tanpa butuh build / compile.
- * Kompatibel 100% untuk GitHub Pages atau file lokal.
- */
-
 (function () {
   const COURSES_DATA = window.COURSES_DATA || [];
 
@@ -13,11 +6,9 @@
     return;
   }
 
-  // State
   let activeCourseId = COURSES_DATA[0].id;
   let searchQuery = '';
 
-  // DOM Elements
   const tabsContainer = document.getElementById('course-tabs');
   const courseTitleEl = document.getElementById('course-title');
   const statKelompokEl = document.getElementById('stat-kelompok');
@@ -135,7 +126,6 @@
     const course = getActiveCourse();
     if (!course) return;
 
-    // Header Info
     if (courseTitleEl) courseTitleEl.textContent = course.nama;
 
     const totalGroups = course.kelompok.length;
@@ -144,7 +134,6 @@
     if (statKelompokEl) statKelompokEl.textContent = totalGroups;
     if (statMahasiswaEl) statMahasiswaEl.textContent = totalStudents;
 
-    // Empty State Check
     if (totalGroups === 0) {
       if (groupsContainer) groupsContainer.classList.add('hidden');
       if (emptyStateEl) emptyStateEl.classList.remove('hidden');
@@ -160,7 +149,6 @@
 
     const q = searchQuery.toLowerCase().trim();
 
-    // Filter groups by group name, project title, or member name / NIM
     const filteredGroups = course.kelompok.filter((group) => {
       if (!q) return true;
       const matchGroupName = group.nama.toLowerCase().includes(q);
@@ -261,7 +249,6 @@
     });
   }
 
-  // Event Listeners
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       searchQuery = e.target.value;
@@ -289,7 +276,6 @@
     copyWABtn.addEventListener('click', copyAllWhatsApp);
   }
 
-  // Initial Boot
   renderTabs();
   renderContent();
 })();

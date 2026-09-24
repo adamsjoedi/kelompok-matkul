@@ -9,13 +9,9 @@
     <meta property="og:description" content="Portal pembagian kelompok studi dan daftar anggota mahasiswa untuk mata kuliah Sistem Basis Data, Web Programming I, dan Komputer Jaringan." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-    
-    <!-- Tailwind CSS via CDN (Bisa langsung jalan di GitHub Pages tanpa install / build) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -52,7 +48,6 @@
     </style>
   </head>
   <body class="bg-slate-50 text-slate-900 antialiased font-sans min-h-screen flex flex-col selection:bg-indigo-500 selection:text-white">
-    <!-- Toast Notification -->
     <div id="toast" class="hidden fixed bottom-5 right-5 z-50 bg-slate-900 text-white text-xs sm:text-sm px-4 py-2.5 rounded-xl shadow-lg flex items-center gap-2 border border-slate-700">
       <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -60,7 +55,6 @@
       <span id="toast-message">Disalin ke clipboard!</span>
     </div>
 
-    <!-- Header Navigation -->
     <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
         <div class="flex items-center gap-3">
@@ -92,16 +86,13 @@
       </div>
     </header>
 
-    <!-- Tab Switch Navigasi Matakuliah -->
     <nav class="border-b border-slate-200 bg-white" aria-label="Pilihan Mata Kuliah">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div id="course-tabs" class="flex space-x-2 sm:space-x-3 overflow-x-auto py-3 no-scrollbar">
-          <!-- Dynamic Buttons from JS -->
         </div>
       </div>
     </nav>
 
-    <!-- Course Header & Stats Info -->
     <section class="bg-white border-b border-slate-200 py-6">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
@@ -112,7 +103,6 @@
             <p class="text-xs text-slate-500">Daftar kelompok studi dan tema project mahasiswa</p>
           </div>
 
-          <!-- Counter Stats -->
           <div class="flex items-center gap-3">
             <div class="bg-slate-50 border border-slate-200/80 rounded-xl px-4 py-2.5 text-center min-w-[90px]">
               <span class="text-[11px] font-medium text-slate-500 block">Kelompok</span>
@@ -127,9 +117,7 @@
       </div>
     </section>
 
-    <!-- Main Content -->
     <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <!-- Search Toolbar -->
       <div class="flex items-center justify-between gap-4 mb-6">
         <div class="relative flex-1 max-w-md">
           <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
@@ -155,12 +143,9 @@
         </div>
       </div>
 
-      <!-- Grid Cards Container -->
       <div id="groups-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Injected via JavaScript -->
       </div>
 
-      <!-- Empty State for Pending Courses -->
       <div id="empty-state" class="hidden bg-white border border-slate-200 rounded-3xl p-8 sm:p-14 text-center max-w-2xl mx-auto shadow-xs">
         <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mx-auto mb-4 border border-amber-100">
           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -188,7 +173,6 @@
       </div>
     </main>
 
-    <!-- Footer -->
     <footer class="mt-auto border-t border-slate-200 bg-white py-6">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
         <div>
@@ -197,7 +181,6 @@
       </div>
     </footer>
 
-    <!-- App Scripts (Standar script tanpa build, langsung jalan di browser & GitHub Pages) -->
     <script src="./data.js"></script>
     <script src="./app.js"></script>
   </body>

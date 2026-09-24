@@ -1,13 +1,3 @@
-/**
- * DATA KELOMPOK STUDI MAHASISWA
- * 
- * Anda dapat mengedit, menambah, atau menghapus mata kuliah,
- * judul project, dan daftar anggota mahasiswa langsung di file ini.
- * 
- * File ini adalah JavaScript murni (Vanilla JS) tanpa build tools / tanpa bundler,
- * sehingga langsung jalan di GitHub Pages atau dibuka langsung di browser.
- */
-
 const COURSES_DATA = [
   {
     id: "sistem-basis-data",

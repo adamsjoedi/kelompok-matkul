@@ -1,4 +1,4 @@
-const COURSES_DATA = [
+  const COURSES_DATA = [
   {
     id: "sistem-basis-data",
     nama: "SISTEM BASIS DATA",
@@ -26,7 +26,7 @@ const COURSES_DATA = [
       {
         nomor: 3,
         nama: "Kelompok 3",
-        judul: "?",
+        judul: "Sistem Informasi Absensi Mahasiswa BSI TANGERANG Berbasis Web",
         anggota: [
           { nama: "Ali Muslih Alfauzan", nim: "17250654" },
           { nama: "Widya Putri Rahayu", nim: "17250072" },
@@ -121,12 +121,118 @@ const COURSES_DATA = [
         nama: "Kelompok 1",
         judul: "",
         anggota: [
-          { nama: "", nim: "" },
-          { nama: "", nim: "" },
-          { nama: "", nim: "" },
-          { nama: "", nim: "" }
+          { nama: "Ahmad Fauzan Rizki", nim: "17250400" },
+          { nama: "Duta Arrasyid", nim: "17250278" },
+          { nama: "Intan Purnamasari", nim: "17250561" },
+          { nama: "Rangga Aji Pramudya", nim: "17250206" }
         ]
       },
+      {
+        nomor: 2,
+        nama: "Kelompok 2",
+        judul: "",
+        anggota: [
+          { nama: "Renal Ali Syahid", nim: "17250313" },
+          { nama: "Ali Muslih Alfauzan", nim: "17250654" },
+          { nama: "Adriyan Sahpitran", nim: "17250049" },
+          { nama: "Kevin Nabil Noor Rahman", nim: "17250374" }
+        ]
+      },
+      {
+        nomor: 3,
+        nama: "Kelompok 3",
+        judul: "",
+        anggota: [
+          { nama: "Widya Putri Rahayu", nim: "17250072" },
+          { nama: "Fernando Hasudungan Siregar", nim: "17250232" },
+          { nama: "Glen Justin Maringan Simarmata", nim: "17250323" },
+          { nama: "Ridho Firmansyah", nim: "17250199" }
+        ]
+      },
+      {
+        nomor: 4,
+        nama: "Kelompok 4",
+        judul: "",
+        anggota: [
+          { nama: "Abdillah", nim: "17250571" },
+          { nama: "Arla Maulana Eza Nugraha", nim: "17250371" },
+          { nama: "Sefti Jikas Mu’afari", nim: "17250513" },
+          { nama: "Ahmad Abu Jihad Bilhaq", nim: "17250439" }
+        ]
+      }
+    ]
+  },
+  
+  // ============================================================================================================
+
+  {
+    id: "praktikum-komputer-jaringan",
+    nama: "PRAKTIKUM KOMPUTER JARINGAN",
+    kelompok: [
+      {
+        nomor: 1,
+        nama: "Kelompok 1",
+        judul: "",
+        anggota: [
+          { nama: "Ahmad Fauzan Rizki", nim: "17250400" },
+          { nama: "Duta Arrasyid", nim: "17250278" },
+          { nama: "Intan Purnamasari", nim: "17250561" },
+          { nama: "Rangga Aji Pramudya", nim: "17250206" }
+        ]
+      },
+      {
+        nomor: 2,
+        nama: "Kelompok 2",
+        judul: "",
+        anggota: [
+          { nama: "Renal Ali Syahid", nim: "17250313" },
+          { nama: "Ali Muslih Alfauzan", nim: "17250654" },
+          { nama: "Adriyan Sahpitran", nim: "17250049" },
+          { nama: "Kevin Nabil Noor Rahman", nim: "17250374" }
+        ]
+      },
+      {
+        nomor: 3,
+        nama: "Kelompok 3",
+        judul: "",
+        anggota: [
+          { nama: "Widya Putri Rahayu", nim: "17250072" },
+          { nama: "Fernando Hasudungan Siregar", nim: "17250232" },
+          { nama: "Glen Justin Maringan Simarmata", nim: "17250323" },
+          { nama: "Ridho Firmansyah", nim: "17250199" }
+        ]
+      },
+      {
+        nomor: 4,
+        nama: "Kelompok 4",
+        judul: "",
+        anggota: [
+          { nama: "Abdillah", nim: "17250571" },
+          { nama: "Arla Maulana Eza Nugraha", nim: "17250371" },
+          { nama: "Sefti Jikas Mu’afari", nim: "17250513" },
+          { nama: "Ahmad Abu Jihad Bilhaq", nim: "17250439" }
+        ]
+      }
+    ]
+  },
+
+  // ============================================================================================================
+
+  {
+    id: "sistem-operasi",
+    nama: "SISTEM OPERASI",
+    kelompok: [
+      // {
+      //   nomor: 1,
+      //   nama: "Kelompok 1",
+      //   judul: "",
+      //   anggota: [
+      //     { nama: "", nim: "" },
+      //     { nama: "", nim: "" },
+      //     { nama: "", nim: "" },
+      //     { nama: "", nim: "" }
+      //   ]
+      // }
     ]
   }
 ];

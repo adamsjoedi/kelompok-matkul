@@ -26,7 +26,7 @@
       {
         nomor: 3,
         nama: "Kelompok 3",
-        judul: "Sistem Informasi Absensi Mahasiswa BSI TANGERANG Berbasis Web",
+        judul: "?",
         anggota: [
           { nama: "Ali Muslih Alfauzan", nim: "17250654" },
           { nama: "Widya Putri Rahayu", nim: "17250072" },
@@ -66,7 +66,7 @@
       {
         nomor: 1,
         nama: "Kelompok 1",
-        judul: "Toko",
+        judul: "Toko Online",
         anggota: [
           { nama: "Ahmad Fauzan Rizki", nim: "17250400" },
           { nama: "Duta Arrasyid", nim: "17250278" },
@@ -88,7 +88,7 @@
       {
         nomor: 3,
         nama: "Kelompok 3",
-        judul: "Perpustakaan",
+        judul: "?",
         anggota: [
           { nama: "Widya Putri Rahayu", nim: "17250072" },
           { nama: "Fernando Hasudungan Siregar", nim: "17250232" },
@@ -99,7 +99,7 @@
       {
         nomor: 4,
         nama: "Kelompok 4",
-        judul: "Universitas",
+        judul: "?",
         anggota: [
           { nama: "Abdillah", nim: "17250571" },
           { nama: "Arla Maulana Eza Nugraha", nim: "17250371" },
@@ -234,7 +234,27 @@
       //   ]
       // }
     ]
+  },
+
+  // ============================================================================================================
+
+  {
+    id: "grafika-komputer",
+    nama: "GRAFIKA KOMPUTER",
+    kelompok: [
+      // {
+      //   nomor: 1,
+      //   nama: "Kelompok 1",
+      //   judul: "",
+      //   anggota: [
+      //     { nama: "", nim: "" },
+      //     { nama: "", nim: "" },
+      //     { nama: "", nim: "" },
+      //     { nama: "", nim: "" }
+      //   ]
+      // }
+    ]
   }
-];
+]
 
 window.COURSES_DATA = COURSES_DATA;

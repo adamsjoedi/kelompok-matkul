@@ -99,7 +99,7 @@
       {
         nomor: 4,
         nama: "Kelompok 4",
-        judul: "?",
+        judul: "Evaluasi Kepuasan Mahasiswa Terhadap Kegiatan PPKMB",
         anggota: [
           { nama: "Abdillah", nim: "17250571" },
           { nama: "Arla Maulana Eza Nugraha", nim: "17250371" },
